@@ -1,0 +1,58 @@
+# docker-compose.yml
+# PostGIS (PostgreSQL 15 + PostGIS 3.4) + MinIO for the full production stack.
+#
+# Quick start (from repo root, PowerShell):
+#   docker compose up -d
+#   $env:DATABASE_URL   = "postgresql+asyncpg://wxuser:wxpass@localhost:5432/wxdb"
+#   $env:MINIO_ENDPOINT = "localhost:9000"
+#   $env:MINIO_ACCESS_KEY = "minioadmin"
+#   $env:MINIO_SECRET_KEY = "minioadmin"
+#   .\alembic upgrade head
+#   .\.venv\Scripts\python.exe -m uvicorn backend.app.main:app --port 8000
+#
+# MinIO console: http://localhost:9001  (minioadmin / minioadmin)
+# pgAdmin / psql: localhost:5432  db=wxdb user=wxuser pass=wxpass
+
+services:
+  # ── PostgreSQL 15 + PostGIS 3.4 ────────────────────────────────────────────
+  db:
+    image: postgis/postgis:15-3.4-alpine
+    container_name: wx_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: wxdb
+      POSTGRES_USER: wxuser
+      POSTGRES_PASSWORD: wxpass
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U wxuser -d wxdb"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # ── MinIO object storage ────────────────────────────────────────────────────
+  minio:
+    image: quay.io/minio/minio:latest
+    container_name: wx_minio
+    command: server /data --console-address ":9001"
+    restart: unless-stopped
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    ports:
+      - "9000:9000"   # S3 API
+      - "9001:9001"   # Web console
+    volumes:
+      - minio_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pg_data:
+  minio_data:

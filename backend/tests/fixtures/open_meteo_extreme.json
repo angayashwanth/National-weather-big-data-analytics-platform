@@ -1,0 +1,10 @@
+{
+  "current": {
+    "time": "2024-07-15T14:00",
+    "interval": 900,
+    "precipitation": 65.0,
+    "rain": 65.0,
+    "wind_speed_10m": 55.0,
+    "weathercode": 82
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "latitude": 19.076,
+  "longitude": 72.8777,
+  "generationtime_ms": 0.12,
+  "utc_offset_seconds": 19800,
+  "timezone": "Asia/Kolkata",
+  "timezone_abbreviation": "IST",
+  "elevation": 14.0,
+  "current_units": {
+    "time": "iso8601",
+    "interval": "seconds",
+    "precipitation": "mm",
+    "rain": "mm",
+    "wind_speed_10m": "km/h",
+    "weathercode": "wmo code"
+  },
+  "current": {
+    "time": "2024-07-15T09:00",
+    "interval": 900,
+    "precipitation": 23.4,
+    "rain": 23.4,
+    "wind_speed_10m": 28.0,
+    "weathercode": 63
+  }
+}

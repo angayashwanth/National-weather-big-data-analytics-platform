@@ -1,0 +1,31 @@
+id,text,true_category,is_fake
+1,"Heavy rain near Kurla station Mumbai roads flooded waterlogged monsoon downpour",rainfall,false
+2,"Dense fog in Delhi visibility near zero on Ring Road foggy morning commuters advised drive slowly",fog,false
+3,"Severe flooding in T.Nagar Chennai roads completely submerged houses inundated residents stranded rescue overflow Adyar river breached",flooding,false
+4,"Thunder lightning approaching Kolkata hailstorm gusty wind",thunderstorm,false
+5,"Strong wind gusts cyclonic circulation Bengaluru 70 kmph trees uprooted power outages Whitefield storm force",strong_wind,false
+6,"Pune heavy rainfall roads waterlogged near Shivajinagar monsoon barish",rainfall,false
+7,"Heatwave conditions Hyderabad maximum temperature 44 degrees scorching heat heat stroke advisory avoid outdoors",heatwave,false
+8,"Dust storm sandstorm approaching Jaipur visibility reduced brown cloud sand dust airport operations affected",dust_storm,false
+9,"Dense fog Lucknow highway visibility reduced caution driving",fog,false
+10,"Patna flooding rajendra nagar jalbhraav log phase hain bachao dal chahiye",flooding,false
+11,"Ahmedabad scorching heat heatwave temperature 46 degrees lu lag rahi hai umask",heatwave,false
+12,"Thunderstorm lightning approaching Bhopal from northwest hailstorm expected strong gusty winds stay indoors",thunderstorm,false
+13,"Heavy rainfall in Surat city roads waterlogged monsoon downpour precipitation traffic slow Ring Road",rainfall,false
+14,"Nagpur strong wind cyclonic tez hawa pedon gire bijli ke khambhe 80 kmph",strong_wind,false
+15,"Mumbai rain shower drizzle Andheri East roads waterlogged slow traffic",rainfall,false
+16,"Old video from 2019 Chennai flood share this breaking alert forward",flooding,true
+17,"Buy cheap insurance now flood protection limited offer click here",flooding,true
+18,"Rain rain rain Mumbai always rain forward this message to all groups",rainfall,true
+19,"Dust storm Jaipur photo from Saudi Arabia 2022 not India viral fake",dust_storm,true
+20,"Video of flood scene 2018 circulating as current Patna flood misleading",flooding,true
+21,"Flash flood alert Pune municipal corporation roads submerged near Baner area water logging report",flooding,false
+22,"Cyclone approaching Odisha coast strong wind 90 kmph landfall expected tomorrow evening",strong_wind,false
+23,"Temperature 42 degrees Nagpur afternoon peak summer heatwave conditions IMD alert",heatwave,false
+24,"Thunderstorm with heavy rain Kolkata lightning visible from 30km gusty wind 60 kmph",thunderstorm,false
+25,"Fog advisory on Yamuna Expressway visibility 50 metres dense fog night driving danger",fog,false
+26,"Rainfall recorded at Santacruz weather station 94mm in 24 hours Mumbai heavy monsoon",rainfall,false
+27,"Dust storm approaching Bikaner visibility zero airport closed diverted flights",dust_storm,false
+28,"River Ganga in spate Patna flood warning red alert low lying areas evacuated",flooding,false
+29,"Breaking viral flood video share immediately this is real forward to 100 groups now",flooding,true
+30,"Strong wind uprooted trees Bangalore visibility low near airport 65 kmph gusts storm",strong_wind,false

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fix001",
+    "handle": "@mumbai_user",
+    "text": "Heavy rain lashing Mumbai streets! #MumbaiRains",
+    "created_at": "2024-07-15T09:00:00Z"
+  },
+  {
+    "id": "fix002",
+    "handle": "@kolkata_local",
+    "text": "मूसलाधार बारिश से कोलकाता की सड़कें जलमग्न। #KolkataRains",
+    "created_at": "2024-07-15T09:10:00Z"
+  },
+  {
+    "id": "fix003",
+    "handle": "@delhi_user",
+    "text": "Delhi thunderstorm with lightning. #DelhiWeather",
+    "created_at": "2024-07-15T09:20:00Z"
+  },
+  {
+    "id": "fix004",
+    "handle": "@spammer",
+    "text": "Make money fast!! No weather here.",
+    "created_at": "2024-07-15T09:30:00Z"
+  },
+  {
+    "id": "fix005",
+    "handle": "@fog_amritsar",
+    "text": "Dense fog in Amritsar — airport flights delayed. #PunjabFog",
+    "created_at": "2024-07-15T09:40:00Z"
+  },
+  {
+    "id": "fix006",
+    "handle": "@jaipur_news",
+    "text": "Jaipur hit by massive dust storm. Visibility under 100m. #RajasthanStorm",
+    "created_at": "2024-07-15T09:50:00Z"
+  },
+  {
+    "id": "fix007",
+    "handle": "@ranchi_weather",
+    "text": "Ranchi thunderstorm with heavy rain. Flash flood risk. #JharkhandRains",
+    "created_at": "2024-07-15T10:00:00Z"
+  },
+  {
+    "id": "fix008",
+    "handle": "@empty_handle",
+    "text": "",
+    "created_at": "2024-07-15T10:10:00Z"
+  }
+]

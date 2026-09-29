@@ -1,0 +1,182 @@
+[
+  {
+    "id": "t001",
+    "handle": "@mumbai_weather_updates",
+    "text": "Heavy rain lashing Mumbai for last 3 hours, streets in Kurla flooded. #MumbaiRains #IMD",
+    "created_at": "2024-07-15T09:10:00Z"
+  },
+  {
+    "id": "t002",
+    "handle": "@ndtv_weather",
+    "text": "ALERT: Flood warning issued for Chennai as Adyar river overflows. Residents asked to evacuate low-lying areas. #ChennaiRains #IMD",
+    "created_at": "2024-07-15T09:25:00Z"
+  },
+  {
+    "id": "t003",
+    "handle": "@imd_official",
+    "text": "Delhi thunderstorm with lightning reported near IGI Airport. Avoid open areas. #DelhiWeather #IMD",
+    "created_at": "2024-07-15T09:40:00Z"
+  },
+  {
+    "id": "t004",
+    "handle": "@kolkata_live",
+    "text": "मूसलाधार बारिश से कोलकाता की सड़कें बाढ़ग्रस्त। #KolkataRains #WestBengalFloods",
+    "created_at": "2024-07-15T10:00:00Z"
+  },
+  {
+    "id": "t005",
+    "handle": "@punekars_unite",
+    "text": "Pune cloudburst: Sinhagad road area waterlogged. Vehicles stranded. Please avoid the route! #PuneRains #IMD",
+    "created_at": "2024-07-15T10:15:00Z"
+  },
+  {
+    "id": "t006",
+    "handle": "@india_weather_net",
+    "text": "Jaipur dust storm warning: visibility drops to 200m on NH-48. Dust cloud approaching from Jodhpur side. #RajasthanWeather",
+    "created_at": "2024-07-15T10:30:00Z"
+  },
+  {
+    "id": "t007",
+    "handle": "@hyderabad_mirror",
+    "text": "Hyderabad receives 82mm rainfall in 2 hours — IMD issues orange alert for Ranga Reddy district. #HydRains #IMD",
+    "created_at": "2024-07-15T10:45:00Z"
+  },
+  {
+    "id": "t008",
+    "handle": "@desi_forecast",
+    "text": "भारी बारिश: पटना में गंगा का जलस्तर खतरे के निशान के पास, निचले इलाकों में बाढ़ का खतरा। #BiharFloods #PatnaRains",
+    "created_at": "2024-07-15T11:00:00Z"
+  },
+  {
+    "id": "t009",
+    "handle": "@lucknow_news24",
+    "text": "Lucknow: Dense fog reduces visibility to near-zero on Agra expressway. Multiple accidents reported. Drive safe! #UPWeather",
+    "created_at": "2024-07-15T11:15:00Z"
+  },
+  {
+    "id": "t010",
+    "handle": "@mumbai_weather_updates",
+    "text": "Heavy rain lashing Mumbai for last 3 hours, streets in Kurla flooded. #MumbaiRains #IMD",
+    "created_at": "2024-07-15T11:18:00Z"
+  },
+  {
+    "id": "t011",
+    "handle": "@spambot_9999",
+    "text": "💰 EARN MONEY FAST! Rain ☔ makes you rich! Click NOW!! Mumbai floods profit!!! #rain #flooding",
+    "created_at": "2024-07-15T11:30:00Z"
+  },
+  {
+    "id": "t012",
+    "handle": "@ahmedabad_citizen",
+    "text": "Strong gusty wind up to 60km/h in Ahmedabad. Tree fallen near Maninagar. Take care. #AhmedabadWeather #IMD",
+    "created_at": "2024-07-15T11:45:00Z"
+  },
+  {
+    "id": "t013",
+    "handle": "@bengaluru_buzz",
+    "text": "यह पुरानी वीडियो है! Bengaluru flooding — THIS IS OLD VIDEO from 2022, not today. Don't spread misinformation. #Bengaluru",
+    "created_at": "2024-07-15T12:00:00Z"
+  },
+  {
+    "id": "t014",
+    "handle": "@rajasthan_weather_alert",
+    "text": "Jodhpur dust storm: haboob-like conditions, 500m visibility. Residents advised to stay indoors. #RajasthanStorm #IMD",
+    "created_at": "2024-07-15T12:10:00Z"
+  },
+  {
+    "id": "t015",
+    "handle": "@chennaimetrolife",
+    "text": "Chennai rain update: T Nagar submerged knee-deep. Schools closed in Chennai and Kanchipuram. #ChennaiFloods #TamilNaduRains",
+    "created_at": "2024-07-15T12:25:00Z"
+  },
+  {
+    "id": "t016",
+    "handle": "@imd_official",
+    "text": "Guwahati flash flood warning: Brahmaputra river rising rapidly. 14 low-lying wards to be evacuated. #AssamFloods",
+    "created_at": "2024-07-15T12:40:00Z"
+  },
+  {
+    "id": "t017",
+    "handle": "@delhi_weather_tracker",
+    "text": "Delhi heatwave: temp touches 46°C in Najafgarh. IMD issues red alert. Avoid outdoor activity 11am–4pm. #DelhiHeat #IMD",
+    "created_at": "2024-07-15T12:55:00Z"
+  },
+  {
+    "id": "t018",
+    "handle": "@punekars_unite",
+    "text": "Pune cloudburst: Sinhagad road area waterlogged. Vehicles stranded. Same situation as before! #PuneRains",
+    "created_at": "2024-07-15T13:00:00Z"
+  },
+  {
+    "id": "t019",
+    "handle": "@nagpur_rains_live",
+    "text": "Nagpur receives 110mm rainfall in 6 hrs — roads under 2 feet water near Sitabuldi. #NagpurFloods #IMD",
+    "created_at": "2024-07-15T13:10:00Z"
+  },
+  {
+    "id": "t020",
+    "handle": "@visakhapatnam_local",
+    "text": "Cyclone alert for Visakhapatnam coast. Strong wind up to 90km/h expected tonight. Fishermen warned. #CycloneAlert #IMD",
+    "created_at": "2024-07-15T13:25:00Z"
+  },
+  {
+    "id": "t021",
+    "handle": "@spambot_fake42",
+    "text": "ok",
+    "created_at": "2024-07-15T13:30:00Z"
+  },
+  {
+    "id": "t022",
+    "handle": "@bhopal_weather_watch",
+    "text": "बाढ़ की चेतावनी: भोपाल में कोलांस नदी का जलस्तर खतरे के पार, बड़े तालाब के गेट खुलने से निचले इलाकों में अलर्ट। #BhopalFloods",
+    "created_at": "2024-07-15T13:40:00Z"
+  },
+  {
+    "id": "t023",
+    "handle": "@chandigarh_news_live",
+    "text": "Chandigarh thunderstorm: lightning strike reported near Sector 22. IMD issues yellow alert for next 3 hours. #ChandigarhWeather",
+    "created_at": "2024-07-15T13:55:00Z"
+  },
+  {
+    "id": "t024",
+    "handle": "@surat_updates",
+    "text": "Surat heavy rain: Tapi river above warning level. Flood gates of Ukai dam being opened. #SuratFloods #GujaratRains",
+    "created_at": "2024-07-15T14:10:00Z"
+  },
+  {
+    "id": "t025",
+    "handle": "@kochi_weather",
+    "text": "Kochi rainfall: Periyar overflowing in low-lying areas. Ernakulam collector orders evacuation. #KeralaFloods #KochiRains",
+    "created_at": "2024-07-15T14:25:00Z"
+  },
+  {
+    "id": "t026",
+    "handle": "@delhi_weather_tracker",
+    "text": "Delhi thunderstorm: sudden downpour near Connaught Place, severe lightning. Power outage in East Delhi. #DelhiWeather",
+    "created_at": "2024-07-15T14:40:00Z"
+  },
+  {
+    "id": "t027",
+    "handle": "@india_climate_data",
+    "text": "यह पुरानी वीडियो है — This video claiming Kolkata floods is FAKE, taken in 2020. Do not share. #FakeNews #WeatherAlert",
+    "created_at": "2024-07-15T14:55:00Z"
+  },
+  {
+    "id": "t028",
+    "handle": "@amritsar_weather",
+    "text": "Amritsar dense fog: international flights delayed at Sri Guru Ram Dass Jee airport. Visibility under 50m. #PunjabFog",
+    "created_at": "2024-07-15T15:05:00Z"
+  },
+  {
+    "id": "t029",
+    "handle": "@mumbai_disaster_mgmt",
+    "text": "Mumbai flood rescue: NDRF teams deployed in Kurla, Sion, Dharavi. Trapped residents call 1916. #MumbaiFloods #NDRF",
+    "created_at": "2024-07-15T15:20:00Z"
+  },
+  {
+    "id": "t030",
+    "handle": "@ranchi_weather_live",
+    "text": "Ranchi thunderstorm with heavy rain: 67mm in 2 hours. Flash flood risk in Kanke and Namkum areas. #JharkhandRains #IMD",
+    "created_at": "2024-07-15T15:35:00Z"
+  }
+]

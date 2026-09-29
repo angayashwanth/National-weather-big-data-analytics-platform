@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>NDTV India News</title>
+    <link>https://www.ndtv.com/india-news</link>
+    <description>Top India News</description>
+
+    <item>
+      <title>Heavy rain lashes Mumbai, several areas flooded</title>
+      <description>Heavy rainfall caused flooding in low-lying areas of Mumbai on Monday. The BMC issued a red alert as Hindmata junction saw knee-deep water.</description>
+      <pubDate>Mon, 15 Jul 2024 09:00:00 +0530</pubDate>
+    </item>
+
+    <item>
+      <title>Chennai flood: Adyar river overflows, 500 families evacuated</title>
+      <description>Heavy rain led to Chennai flooding. Adyar river overflowed its banks near Kotturpuram, prompting rescue operations.</description>
+      <pubDate>Mon, 15 Jul 2024 10:00:00 +0530</pubDate>
+    </item>
+
+    <item>
+      <title>Delhi thunderstorm kills 2, uproots trees in South Delhi</title>
+      <description>A sudden thunderstorm with lightning struck Delhi late Sunday evening, killing two people in Mehrauli and knocking down trees near Saket.</description>
+      <pubDate>Mon, 15 Jul 2024 11:00:00 +0530</pubDate>
+    </item>
+
+    <item>
+      <title>Rajasthan dust storm: Jaipur and Jodhpur hit by sandstorm</title>
+      <description>A massive dust storm engulfed Jaipur and Jodhpur reducing visibility to near zero on major highways. Winds gusting at 70 km/h.</description>
+      <pubDate>Mon, 15 Jul 2024 12:00:00 +0530</pubDate>
+    </item>
+
+    <item>
+      <title>Market update: Sensex rises 300 points on positive global cues</title>
+      <description>Indian stock markets opened higher on Monday with the Sensex gaining 300 points.</description>
+      <pubDate>Mon, 15 Jul 2024 09:30:00 +0530</pubDate>
+    </item>
+
+    <item>
+      <title>Kolkata rainfall: Waterlogging in Park Street area, traffic snarls</title>
+      <description>Kolkata received over 95mm rainfall in 3 hours. Waterlogging reported in Park Street, Gariahat and Ultadanga. IMD red alert issued.</description>
+      <pubDate>Mon, 15 Jul 2024 13:00:00 +0530</pubDate>
+    </item>
+
+    <item>
+      <title>Bengaluru fog: Airport delays as visibility drops to 200m</title>
+      <description>Dense fog shrouded Bengaluru early morning causing at least 12 flight delays at Kempegowda International Airport.</description>
+      <pubDate>Mon, 15 Jul 2024 06:00:00 +0530</pubDate>
+    </item>
+  </channel>
+</rss>
