@@ -1,6 +1,6 @@
 # Standing Rules for AI Agents (National Weather Big Data Analytics Platform - SIH26069)
 
-This document contains standing rules and operating constraints for all AI agents and developers working in this repository. The source of truth for architecture and problem statement is [docs/SIH26069_Solution_Document.md](file:///d:/SIH_069/docs/SIH26069_Solution_Document.md).
+This document contains standing rules and operating constraints for all AI agents and developers working in this repository. The source of truth for architecture and problem statement is [docs/SIH26069_Solution_Document.md](docs/SIH26069_Solution_Document.md).
 
 ---
 
@@ -18,7 +18,7 @@ This document contains standing rules and operating constraints for all AI agent
 
 ## 2. Strict Scope Boundary — MVP Only (Section 5.1)
 
-Build **only** the MVP scope defined in Section 5.1 of [docs/SIH26069_Solution_Document.md](file:///d:/SIH_069/docs/SIH26069_Solution_Document.md):
+Build **only** the MVP scope defined in Section 5.1 of [docs/SIH26069_Solution_Document.md](docs/SIH26069_Solution_Document.md):
 
 ### Included in MVP:
 1. **Citizen report intake:** Web form / submission endpoint capturing timestamp, city, state, GPS, event category, description, and optional photo/video.
@@ -93,7 +93,7 @@ Every ingested record across all sources must normalize to this core schema:
 ## 7. Repository Layout
 
 ```
-SIH_069/
+National-weather-big-data-analytics-platform/
 ├── AGENTS.md                  # This file - standing agent instructions
 ├── README.md                  # Project overview and run instructions
 ├── .gitignore                 # Ignored files for Python, Node, media, envs

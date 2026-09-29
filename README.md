@@ -4,7 +4,7 @@
 
 A real-time intelligence platform that ingests crowdsourced citizen reports, social media posts, news websites, and meteorological feeds; verifies them through ML classification, fake detection, and duplicate checks; routes sensitive/high-impact alerts to a human review queue; and surfaces verified weather intelligence on an interactive geospatial dashboard.
 
-The architectural source of truth for this project is [docs/SIH26069_Solution_Document.md](file:///d:/SIH_069/docs/SIH26069_Solution_Document.md). Standing rules and development constraints for AI agents and contributors are in [AGENTS.md](file:///d:/SIH_069/AGENTS.md).
+The architectural source of truth for this project is [docs/SIH26069_Solution_Document.md](docs/SIH26069_Solution_Document.md). Standing rules and development constraints for AI agents and contributors are in [AGENTS.md](AGENTS.md).
 
 ---
 
@@ -23,7 +23,7 @@ The architectural source of truth for this project is [docs/SIH26069_Solution_Do
 ## Directory Structure
 
 ```
-SIH_069/
+National-weather-big-data-analytics-platform/
 ├── AGENTS.md                            # Standing rules and constraints for AI agents
 ├── README.md                            # Project overview and setup instructions
 ├── .gitignore                           # Git ignore rules for Python, Node, Vite, SQLite
@@ -51,7 +51,7 @@ All commands below are designed to be run in **PowerShell**.
 
 ### 1. Backend Setup
 
-Open a PowerShell terminal at the repository root (`SIH_069`):
+Open a PowerShell terminal at the repository root:
 
 ```powershell
 # 1. Create a virtual environment at .venv (if not already created)
@@ -61,23 +61,31 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
 # 3. Upgrade pip and install backend dependencies
-pip install --upgrade pip
-pip install -r backend/requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r backend/requirements.txt
 
-# 4. Set environment variables (or copy .env.example)
-# For local development, SQLite is used by default:
-$env:DATABASE_URL="sqlite:///./weather_platform.db"
+# 4. Database configuration (Optional)
+# By default, SQLite (sqlite+aiosqlite:///./wx.db) is used out of the box with zero configuration.
+# Database tables are created automatically when the FastAPI server starts up.
+# If connecting to PostgreSQL in production/staging, you can set:
+# $env:DATABASE_URL="postgresql+asyncpg://user:password@localhost:5432/weather_platform"
 
-# 5. Run database migrations or initial table creation
-python -m backend.app.db_init
-
-# 6. Start the FastAPI development server with auto-reload
-uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000
+# 5. Start the FastAPI development server with auto-reload
+python -m uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 The backend API and Swagger docs will be accessible at:
 - **API Root:** `http://127.0.0.1:8000`
 - **Interactive Swagger Docs:** `http://127.0.0.1:8000/docs`
+- **Admin Credentials (Default):**
+  - Username: `admin`
+  - Password: `changeme`
+
+#### (Optional) Seed Demo Incident Data
+While the FastAPI server is running on `127.0.0.1:8000`, open another PowerShell terminal (with `.venv` activated) to populate realistic Mumbai flash-flood demo reports:
+```powershell
+python scripts/seed.py
+```
 
 ---
 
